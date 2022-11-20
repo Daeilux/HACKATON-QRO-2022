@@ -242,7 +242,7 @@ header div:nth-child(1) {
 	align-items: center;
 	justify-content: center;
 	background-position:center ;
-	background-image: linear-gradient(rgba(0,0,0,0.5), rgb(0,0,0,.5)), url("/private/img/maps.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgb(0,0,0,.5)), url("../img/maps.jpg");
 	background-repeat: no-repeat ;
 	background-size: cover;
 	padding-top:22rem ;
@@ -340,7 +340,6 @@ header div:nth-child(1) {
 .contact .row form .box{
 	padding:1rem ;
 	margin:1rem 0;
-	color: #fff;
 	text-transform: none;
 	font-size: 1.7rem;
 	width: 100%;
@@ -462,17 +461,21 @@ header div:nth-child(1) {
 	margin-top: 100px;
 }
 
-
-
 #Descargas div img{
 	width: 20rem;
 	height: 20rem;
 }
 
+#Eventos{
+	display: flex;
+	height: 100vh;
+}
 
-
-
-
+#Eventos h3{
+	font-size: 4rem;
+	color: #130f40;
+	font-weight: bold;
+}
 /* media queries */
 
 @media (max-width: 991px){
